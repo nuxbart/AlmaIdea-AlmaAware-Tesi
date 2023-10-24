@@ -1,0 +1,205 @@
+export const badges = [
+    {
+        "Badge": "Fashion for Good",
+        "SDG": "1",
+        "Point": "10",
+        "Subtitle": "Fai 5 donazioni di vestiti",
+        "Description": "Dividi i tuoi vestiti e dona quelli troppo piccoli o che non indossi più alle associazioni. Puoi anche depositarli in un contenitore specifico. Ogni volta che fai una donazione, non dimenticare di convalidare nell'app.",
+        "Image": "clothes",
+        "State": "unvalidated",
+        "Type": "MultiCheckbox",
+        "Checkbox": 5
+    },
+    {
+        "Badge": "Expiration Extender",
+        "SDG": "2",
+        "Point": "10",
+        "Subtitle": "Acquista 10 volte prodotti a breve scadenza",
+        "Description": "",
+        "Image": "",
+        "State": "unvalidated",
+        "Type": "MultiCheckbox",
+        "Checkbox": 20
+    },
+    {
+        "Badge": "Fitness Fanatic",
+        "SDG": "3",
+        "Point": "5",
+        "Subtitle": "Fai sport 2 volte a settimana in un mese",
+        "Description": "",
+        "Image": "sport",
+        "State": "unvalidated",
+        "Type": "Checkbox",
+        "Checkbox": 8
+    },
+    {
+        "Badge": "Hydration Hero",
+        "SDG": "3",
+        "Point": "5",
+        "Subtitle": "Bevi 2 litri al giorno per un mese",
+        "Description": "",
+        "Image": "water",
+        "State": "unvalidated",
+        "Type": "",
+    },
+    {
+        "Badge": "Museum Explorer",
+        "SDG": "4",
+        "Point": "30",
+        "Subtitle": "Visita 3 volte un museo",
+        "Description": "",
+        "Image": "museum",
+        "State": "unvalidated",
+        "Type": "MultiCheckbox",
+        "Checkbox": 3,
+        "actionName" : "visit"
+    },
+    {
+        "Badge": "Equality Advocate",
+        "SDG": "5",
+        "Point": "10",
+        "Subtitle": "Fai il quiz sull'uguaglianza di genere",
+        "Description": "",
+        "Image": "gender",
+        "State": "validated",
+        "Type": "Quizz"
+    },
+    {
+        "Badge": "Eco Hydrato",
+        "SDG": "6",
+        "Point": "10",
+        "Subtitle": "Riempi la tua borraccia 50 volte",
+        "Description": "",
+        "Image": "unvalidated",
+        "State": "unvalidated",
+        "Type": "QR-Code",
+        "Checkbox": 50
+    },
+    {
+        "Badge": "Drip Drop Champion",
+        "SDG": "6",
+        "Point": "10",
+        "Subtitle": "Fai 10 docce brevi",
+        "Description": "Per risparmiare acqua, fai una doccia breve (meno di 10 minuti). Ogni volta che fai la doccia, avvia il timer dell'app per convalidare la tua doccia.",
+        "Image": "shower",
+        "State": "validated",
+        "Type": "Timer",
+        "Checkbox": 10
+    },
+    {
+        "Badge": "Laundry Potion",
+        "SDG": "6",
+        "Point": "20",
+        "Subtitle": "Crea il tuo detersivo liquido per bucato",
+        "Description": "",
+        "Image": "landry",
+        "State": "unvalidated",
+        "Type": "Checkbox",
+        "Checkbox": 1
+    },
+    {
+        "Badge": "Green Power",
+        "SDG": "7",
+        "Point": "10",
+        "Subtitle": "Fai il quiz sull'energia",
+        "Description": "",
+        "Image": "energy",
+        "State": "unvalidated",
+        "Type": "Quizz"
+    },
+    {
+        "Badge": "Carpool Captain",
+        "SDG": "11",
+        "Point": "50",
+        "Subtitle": "Fai 10 viaggi in carpool",
+        "Description": "",
+        "Image": "carpool",
+        "State": "unvalidated",
+        "Type": "Checkbox",
+        "Checkbox": 10
+    },
+    {
+        "Badge": "Caffeine Conscious",
+        "SDG": "12",
+        "Point": "10",
+        "Subtitle": "Usa la tua tazza 20 volte",
+        "Description": "",
+        "Image": "coffee",
+        "State": "validated",
+        "Type": "Checkbox",
+        "Checkbox": 20
+    },
+    {
+        "Badge": "Eco Shopper",
+        "SDG": "12",
+        "Point": "10",
+        "Subtitle": "Riutilizza 10 volte i tuoi contenitori per la spesa",
+        "Description": "",
+        "Image": "bag",
+        "State": "unvalidated",
+        "Type": "MultiCheckbox",
+        "Checkbox": 10
+    },
+    {
+        "Badge": "Carbon Tracker",
+        "SDG": "13",
+        "Point": "50",
+        "Subtitle": "Calcola la tua impronta di carbonio",
+        "Description": "",
+        "Image": "co2",
+        "State": "unvalidated",
+        "Type": "Input"
+    },
+    {
+        "Badge": "Climate Champion",
+        "SDG": "13",
+        "Point": "200",
+        "Subtitle": "Avere un'impronta di carbonio inferiore a 2 tonnellate all'anno",
+        "Description": "",
+        "Image": "carbonFootprint",
+        "State": "unvalidated",
+        "Type": "Input"
+    },
+    {
+        "Badge": "Beach Cleaner",
+        "SDG": "14",
+        "Point": "50",
+        "Subtitle": "Partecipa a 5 iniziative per ripulire la spiaggia",
+        "Description": "",
+        "Image": "beach",
+        "State": "unvalidated",
+        "Type": "Checkbox",
+        "Checkbox": 5
+    },
+    {
+        "Badge": "Herbivore Hero",
+        "SDG": "15",
+        "Point": "20",
+        "Subtitle": "Mangia vegetariano due volte a settimana per un mese",
+        "Description": "",
+        "Image": "vegetarian",
+        "State": "validated",
+        "Type": "Checkbox",
+        "Checkbox": 1
+    },
+    {
+        "Badge": "Eco Chemist",
+        "SDG": "15",
+        "Point": "20",
+        "Subtitle": "Crea 3 prodotti per la casa",
+        "Description": "",
+        "Image": "holdhouseProduct",
+        "State": "unvalidated",
+        "Type": "Checkbox",
+        "Checkbox": 3
+    },
+    {
+        "Badge": "Responsible Gardener",
+        "SDG": "17",
+        "Point": "20",
+        "Subtitle": "Collegati alla serra Unibo",
+        "Description": "",
+        "Image": "greenhouse",
+        "State": "unvalidated"
+    }
+]

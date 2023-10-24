@@ -1,0 +1,111 @@
+/***** COLORS *****/
+:root {
+  --principal: #F0EDE8;
+  --sdg1: #E5243B;
+  --sdg2: #DDA63A;
+  --sdg3: #4C9F38;
+  --sdg4: #C5192D;
+  --sdg5: #ff3a21;
+  --sdg6: #26bde2;
+  --sdg7: #FCC30B;
+  --sdg8: #A21942;
+  --sdg9: #FD6925;
+  --sdg10: #DD1367;
+  --sdg11: #FD9D24;
+  --sdg12: #BF8B2E;
+  --sdg13: #3F7E44;
+  --sdg14: #0A97D9;
+  --sdg15: #56C02B;
+  --sdg16: #00689D;
+  --sdg17: #19486a;
+  --unibo: #BB2E29;
+}
+
+/***** FONTS AND SIZE ****/
+/* google font import */
+/*Inter*/ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap');
+/*Viga*/
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
+
+:root{
+  --title-font : 'Viga', sans-serif;
+  --text-font : 'Inter',sans-serif ;
+  --number-font : 'Viga', sans-serif;
+  --sdg-number-font : 'Londrina Sketch';
+
+  --title-size :24px;
+  --subtitle-size: 20px;
+  --text-size: 13px;
+  --number-size : 30px;
+
+  --bold : 300;
+  --regular : 200;
+  --thin : 100;
+}
+
+h1{
+  font-family:var(--title-font);
+  font-size: var(--title-size);
+}
+
+body{
+  font-family: var(--text-font);
+  font-size: var(--text-size);
+  margin:0;
+  padding:0;
+}
+
+footer{
+  margin:0;
+  padding:0;
+}
+header{
+  margin:0;
+  padding:0;
+}
+main{
+  margin:0;
+  padding:0;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height : calc(100vh - 6vh - 8vh);
+}
+a{
+  text-decoration: none;
+}
+.icon{
+  width :4vh;
+  height : 4vh;
+  fill : black;
+}
+
+/*SHADOW */
+
+:root{
+  --box-shadow : 0px -4px 10px 0px rgba(0, 0, 0, 0.15);
+
+}
+/* SDG LINE */
+:root{
+  --sdgLine-width :5px;
+  --sdgKioskLine-width :15px;
+}
+.sdgLine{
+  border-image-source:url(../assets/medias/SGD_line.svg);
+  border-image-slice:5;
+  border-image-repeat: stretch;
+}
+
+.sdgLineVertical{
+  border-image-source:url(../assets/medias/SGD_lineVertical.svg);
+  border-image-slice:5;
+  border-image-repeat: stretch;
+}
+
+
+
